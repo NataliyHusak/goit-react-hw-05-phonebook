@@ -1,0 +1,11 @@
+.bounceInDown {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.bounceOutUp {
+  opacity: 1;
+  transform: translateX(0);
+  transition-property: opacity, left;
+  transition: transform 0.25s, opacity 0.25s;
+}

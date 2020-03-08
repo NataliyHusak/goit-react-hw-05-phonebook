@@ -1,0 +1,38 @@
+.contact {
+  width: 320px;
+  color: black;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 10px;
+  font-size: 24px;
+}
+.input {
+  width: 70%;
+  color: black;
+  border: 1px solid transparent;
+  border-bottom: 2px solid black;
+  font-size: 24px;
+}
+.nameInput::placeholder {
+  color: rgb(204, 204, 223);
+}
+.button {
+  display: block;
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  color: black;
+  background: rgb(201, 200, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.disabled {
+  color: rgb(201, 200, 255);
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(201, 200, 255);
+  cursor: auto;
+}

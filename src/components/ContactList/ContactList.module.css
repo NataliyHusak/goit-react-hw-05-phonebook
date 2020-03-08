@@ -1,0 +1,33 @@
+.list {
+  min-width: 320px;
+  max-width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 28px;
+}
+.button {
+  display: block;
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  color: black;
+  background: rgb(201, 200, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
